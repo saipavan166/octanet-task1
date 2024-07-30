@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x600?text=Gift+Store') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #ff5722;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #fb8c00;
+}
+
+.featured, .categories, .testimonials, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.featured h2, .categories h2, .testimonials h2, .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.gift {
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.gift img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.gift h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.gift p {
+    font-size: 1.25rem;
+    color: #ff5722;
+}
+
+.category {
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.category h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+    font-style: italic;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+footer {
+    background-color: #ff5722;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
